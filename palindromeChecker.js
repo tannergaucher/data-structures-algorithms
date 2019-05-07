@@ -26,6 +26,10 @@ function palindrome(str) {
     forwards.push(x)
     backwards.push(x)
   })
+
+  return forwards === backwards
 }
 
 palindrome('1 eye for of 1 eye')
+
+module.exports = palindrome
